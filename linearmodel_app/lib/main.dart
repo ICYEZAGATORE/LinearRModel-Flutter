@@ -5,6 +5,8 @@ void main() {
 }
 
 class PredictionApp extends StatelessWidget {
+  const PredictionApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -20,6 +22,8 @@ class PredictionApp extends StatelessWidget {
 }
 
 class PredictionPage extends StatefulWidget {
+  const PredictionPage({super.key});
+
   @override
   _PredictionPageState createState() => _PredictionPageState();
 }
